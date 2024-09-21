@@ -6,6 +6,7 @@ import {Card} from "./components/card";
 import { InputInf } from "./components/InputInf";
 import { Counter } from "./components/Counter";
 import { AppearText } from "./components/AppearText";
+import { TaskList } from "./components/TaskList";
 
 
 
@@ -44,6 +45,8 @@ function App() {
 
       <AppearText />
       
+      <TaskList />
+
     </div>
   )
 }
