@@ -5,7 +5,7 @@ export const AppearText = () =>{
     const [appearText, setAppearText] = useState(true)
 
     const appear = () =>{
-        setAppearText(!appearText) /*Alterna el valor entre true or false para que aparezca o desaparezca el texto */
+        setAppearText(!appearText) //Alterna el valor entre true or false para que aparezca o desaparezca el texto 
     }
 
     return(

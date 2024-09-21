@@ -3,6 +3,7 @@ import React, { useRef, useState } from "react";
 export const InputInf = () => {
   const text = useRef("");
   const [inputValue, setInuputValue] = useState("")
+  
   const handleChange = () =>{
     setInuputValue(text.current.value)
   }
